@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2><u>MADE BY ADMINISTRATOR</u></h2>
+        <p class="scoreBlock">Score: <b class="score">0</b></p>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <div id="controls">
+        <div class="control-button" id="upButton">
+            <div class="arrow-up"></div>
+        </div>
+    <div class="control-button" id="downButton">
+            <div class="arrow-down"></div>
+        </div>
+        <div class="control-button" id="leftButton">
+            <div class="arrow-left"></div>
+        </div>
+        <div class="control-button" id="rightButton">
+            <div class="arrow-right"></div>
+        </div>
+    </div>
+    
+    
+
+    <h3 class="stylish-heading">Play and Pause Music</h3>
+    <audio id="myAudio" controls>
+        <source src="bestsong.mp3" type="audio/mpeg">
+    </audio>
+    <button id="playPauseButton">Play</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

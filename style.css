@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#gameCanvas {
+    margin: 0 auto;
+    border: 1px solid #E60CE3;
+    background: url(pikachu.gif) no-repeat;
+    background-size:contain ;
+    opacity: 0.8;
+}
+
+.scoreBlock {
+    font-size: 25px;
+    color: darkcyan;
+}
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
+    color:coral;
+    opacity: 0.5;
+}
+/* Define the button styles */
+#playPauseButton{
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #FF6B6B, #FF9447);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s, transform 0.2s, box-shadow 0.2s;
+}
+
+/* Define the button hover effect */
+#playPauseButton:hover {
+    background: linear-gradient(135deg, #FF9447, #FF6B6B);
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*###########################style h1#############################################*/
+/* Define the styles for the h1 tag */
+.stylish-heading {
+   
+    text-align: center;
+    color: #3498db;
+    text-transform: uppercase;
+    margin-top: 50px;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+/* Define the hover effect */
+.stylish-heading:hover {
+    color: #F72390;
+    font-size: 1.4rem;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #####################   button joystick design #####################*/
+.control-button {
+    background-color: #3498db;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.arrow-up, .arrow-down, .arrow-left, .arrow-right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.arrow-up {
+    border-width: 0 15px 25px 15px;
+    border-color: transparent transparent #fff transparent;
+}
+
+.arrow-down {
+    border-width: 25px 15px 0 15px;
+    border-color: #fff transparent transparent transparent;
+}
+
+.arrow-left {
+    border-width: 15px 25px 15px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+.arrow-right {
+    border-width: 15px 0 15px 25px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.control-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+.control-button:active {
+    transform: scale(1);
+}
